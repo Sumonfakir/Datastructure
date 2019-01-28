@@ -1,0 +1,126 @@
+body {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-image: url('/images/laplan.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-style: oblique;
+  background-color: gold;
+  border: 2px solid black;
+  padding: 0.5em;
+  padding-right: 0.7em;
+  border-radius: 0.3em;
+  box-shadow: 0.2em 0.2em 0.3em rgb(0,0,0);
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+table, td, th{
+  border: 1px solid black;
+  padding:0.5em;
+  font-size: 1.1em;
+  border-radius: 0.3em;
+}
+th{
+  background-color: #e8dede;
+}
+
+table{
+  box-shadow: 0.2em 0.2em 0.3em rgb(0,0,0);
+  margin-bottom: 1em;
+  background-color: #660102;
+}
+
+#cleartable tr {
+  background-color: darkred;
+  padding: initial;
+  font-size: initial;
+  border-radius: initial;
+}
+
+#cleartable td {
+  border: 0px;
+}
+
+tr:nth-child(odd){background-color: darkgreen;}
+
+tr:nth-child(even){background-color: #649e4b;}
+
+label {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+
+input {
+  border-radius: 0.2em;
+  font-size: 1.5em;
+}
+
+button{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 10em;
+  height: 3em;
+  border:0.1em solid black;
+  background-color: darkgreen;
+  border-radius: 0.7em;
+  box-shadow: 0.2em 0.2em 0.3em rgb(0,0,0);
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+
+button:hover {  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 10em;
+  height: 3em;
+  border:0.2em dotted yellow;
+  background-color: darkgreen;
+  border-radius: 0.7em;
+  box-shadow: 0.2em 0.2em 0.3em rgb(0,0,0);
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+
+}
+
+#formsub {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.prettify {
+  box-shadow: 0.2em 0.2em 0.3em rgb(0,0,0);
+  background-color: darkred;
+  padding: 1em;
+  border: 0.1em solid black;
+  border-radius: 0.7em;
+}
+
+#textify {
+  font-size: 1em;
+  font-weight: bold;
+  color: gold;
+  text-shadow: 1px 1px black;
+  box-shadow: 0.2em 0.2em 0.3em rgb(0,0,0);
+}

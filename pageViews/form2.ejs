@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+  </head>
+  <body>
+    <h1><%= header %></h1>
+    <form action="<%= action %>" method="post">
+      <p>
+        <label for="productID">ProductID:</label>
+        <input type="text" id="productID" name="productID" size="5"
+        value="<%=productID.value %>" <%= productID.readonly %> >
+      </p>
+      <p>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" size="15"
+        value="<%=firstname.value %>" <%= firstname.readonly %> >
+      </p>
+      <p>
+        <label for="model">Model name:</label>
+        <input type="text" id="model" name="model" size="25"
+        value="<%=model.value %>" <%= model.readonly %> >
+      </p>
+      <p>
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" size="10"
+        value="<%= type.value %>" <%= type.readonly %> >
+      </p>
+      <p>
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" size="10"
+        value="<%= price.value %>" <%= price.readonly %> >
+      </p>
+
+      <button type="submit">Submit</button>
+    </form>
+    <a href="/"><button>Menu</button>
+  </body>
+</html>

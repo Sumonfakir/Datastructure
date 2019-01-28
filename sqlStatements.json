@@ -1,0 +1,16 @@
+{
+  "getAllSql"         : [
+    "select productID, firstname, model,type, price from product"
+  ],
+  "getProductSql"      : [
+    "select productID, firstname, model, type, price from product ",
+    "where productID = ?"
+  ],
+  "insertProductSql"  : [
+    "insert into product (productID, firstname, model, type, price)",
+    "values(?,?,?,?,?)"
+  ],
+  "deleteProductSql"  : [
+    "delete from product where productID=?"
+  ]
+}
